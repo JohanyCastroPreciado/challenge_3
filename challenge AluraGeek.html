@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+</head>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/estilosChallenge.css">
+<body>
+    <nav class="challenge">
+        <header class="challenge_header">
+            <figure class="challenge_logo_figure">
+                <img class="challenge_logo_image" src="/imagenes/cabecera.png" alt="">
+            </figure>
+        </header>
+    </nav>
+
+    <main class="secciones">
+        <nav class="productos">
+            <h1>MIS PRODUCTOS:</h1>
+            <ul class="lista_productos">
+                <li class="lista_productos_images">
+                    <div class="descripcion_producto">
+                        <img src="./imagenes/Stormtrooper.png" alt="">
+                    </div>
+                    <div class="detalle_producto">
+                        <h3>Stormtrooper</h3>
+                        <br>
+                        <p>$ 60,00</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="lista_productos">
+                <li class="lista_productos_images">
+                    <div class="descripcion_producto">
+                        <img src="./imagenes/GameBoyClasic.png" alt="">
+                    </div>
+                    <div class="detalle_producto">
+                        <h3>Game Boy Classic</h3>
+                        <br>
+                        <p>$ 60,00</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="lista_productos">
+                <li class="lista_productos_images">
+                    <div class="descripcion_producto">
+                        <img src="./imagenes/Stormtrooper.png" alt="">
+                    </div>
+                    <div class="detalle_producto">
+                        <h3>Stormtrooper</h3>
+                        <br>
+                        <p>$ 60,00</p>
+                    </div>
+                </li>
+            </ul>
+            
+        </nav>
+
+        <nav class="formulario">
+            <h1 class="titulo1">AGREGAR PRODUCTO:</h1>
+            <div>
+                <form class="principal__formulario" data-formulario>
+                    <fieldset class="formulario__campo">
+                      <label class="campo__etiqueta" for="nombre">nombre...</label>
+                      <input name="nombre" id="nombre" class="campo__completo" type="text" minlength="3" required/>
+                    </fieldset>
+            </div>
+            <div>
+                <form class="principal__formulario" data-formulario>
+                    <fieldset class="formulario__campo">
+                      <label class="campo__etiqueta" for="nombre">precio...</label>
+                      <input name="nombre" id="nombre" class="campo__completo" type="text" minlength="3" required/>
+                      </fieldset>
+            </div>
+            <div>
+                <form class="principal__formulario" data-formulario>
+                    <fieldset class="formulario__campo">
+                      <label class="campo__etiqueta" for="nombre">imagen...</label>
+                      <input name="nombre" id="nombre" class="campo__completo" type="text" minlength="3" required/>
+                    </fieldset>
+            </div>
+            
+            <div>
+                <input
+                  value="Enviar"
+                  class="formulario__boton"
+                  id="enviar"
+                  data-boton-enviar type="submit"
+                /> 
+                <input
+                  value="Limpiar"
+                  class="formulario__boton"
+                  id="enviar"
+                  data-boton-enviar type="submit"
+                /> 
+            </div>    
+                 
+        </nav>
+    </main>
+    <footer class="pie_pagina">
+        <div>
+            <img src="./imagenes/cabecera.png" alt="Logo challenge" class="imagen_footer"/>
+            <h2 class="pie_pagina_titulo">Desarrollado por: Johany Castro</h2>
+            <p class="pie_pagina_parrafo">Alura Latam 2024</p>
+        </div>
+    
+    </footer>
+    
+</body>
+</html>
